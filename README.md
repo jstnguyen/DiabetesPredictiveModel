@@ -47,11 +47,11 @@ Our model is trained on the "Diabetes Prediction Dataset" from Kaggle: [Diabetes
     - To use the model, run `webpg.ipynb` and click the localhost link generated in the output terminal. Enter medical data on the webpage using values from the dataset. The model then provides a prediction regarding the presence of diabetes.
 
 5. **General Workflow:**
-   - Start with the EDA notebook, then move to the model notebooks. For an interactive web application run the `webpg.ipynb` notebook for web deployment.
+   - Start with the EDA notebook, then move to the model notebooks. For an interactive web application, run the `webpg.ipynb` notebook for web deployment.
 
 ## Features
 - Detailed data preprocessing and analysis to enhance prediction accuracy.
-- Implements Logistic Regression, Naïve Bayes, and Random Forest models.
+- Implements logistic regression, Naïve Bayes, and random forest models.
 - Flask-based web interface for user interaction.
 - User-friendly Jupyter Notebooks
 
