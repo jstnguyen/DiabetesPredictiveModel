@@ -15,7 +15,7 @@ Our model is trained on the "Diabetes Prediction Dataset" from Kaggle: [Diabetes
    # Windows: myenv\Scripts\activate
    # Unix/MacOS: source myenv/bin/activate
    ```
-3. Install required Python packages:
+3. Install required Python packages with [pip install](https://docs.python.org/3/installing/index.html):
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn flask pickle
    ```
@@ -35,6 +35,7 @@ Our model is trained on the "Diabetes Prediction Dataset" from Kaggle: [Diabetes
 2. **Model Building and Evaluation:**
    - Refer to `Log_Reg_Model.ipynb`, `Naive_Bayes_Model.ipynb`, and `Random_Forest_Model.ipynb` for model-specific workflows.
    - These notebooks guide through data loading, preprocessing, model training, and evaluation.
+   - Be sure to run `Log_Reg_Model.ipynb` in order to create `model.pkl` and `scaler.pkl`.
 
 3. **Web Application:**
      - The project utilizes three key files for web application:
@@ -46,7 +47,7 @@ Our model is trained on the "Diabetes Prediction Dataset" from Kaggle: [Diabetes
     - To use the model, run `webpg.ipynb` and click the localhost link generated in the output terminal. Enter medical data on the webpage using values from the dataset. The model then provides a prediction regarding the presence of diabetes.
 
 5. **General Workflow:**
-   - Start with the EDA notebook, then move to the model notebooks. For an interactive web application run the Flask notebook for web deployment.
+   - Start with the EDA notebook, then move to the model notebooks. For an interactive web application run the `webpg.ipynb` notebook for web deployment.
 
 ## Features
 - Detailed data preprocessing and analysis to enhance prediction accuracy.
